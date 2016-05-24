@@ -1,4 +1,4 @@
-FROM reangd/base-x11:latest
+FROM reangd/x11-base:latest
 
 ADD https://dl.google.com/linux/linux_signing_key.pub /tmp/
 COPY run_chrome /bin/

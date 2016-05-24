@@ -23,7 +23,7 @@ docker run -d \
   --volume="$HOME/.Xauthority:/home/docker/.Xauthority:ro" \
   --volume="$HOME/.cache/google-chrome-cache:/home/docker/.cache/google-chrome:rw" \
   --volume="$HOME/.cache/google-chrome-config:/home/docker/.config/google-chrome:rw" \
-  reangd/chrome:latest
+  reangd/x11-chrome:latest
 else
   docker start chrome
 fi
