@@ -1,9 +1,2 @@
-Chrome in the docker
+Neural network
 ===
-
-Add group "docker" to user and run:
-
-```Shell
-chmod +x chrome
-./chrome
-```
